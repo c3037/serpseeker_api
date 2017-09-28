@@ -9,12 +9,12 @@ $ss = new SERPSeeker('bdb8cbaa83ccfc71eef1e19b83c12ede');
 /** Проекты */
 
 // Добавление проекта
-//$tmpArray = $ss->addProject('TestVI', 'http://www.vseinstrumenti.ru/');
+//$tmpArray = $ss->addProject('Test', 'http://www.test.ru/');
 //$result = !empty($tmpArray['id']) ? (int)$tmpArray['id'] : false;
 //var_dump($result);
 
 // Измененение проекта
-//$result = (bool)$ss->changeProject(103999, 'TestVI2');
+//$result = (bool)$ss->changeProject(103999, 'Test2');
 //var_dump($result);
 
 // Получение инфы о проекте
