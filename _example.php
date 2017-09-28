@@ -1,10 +1,9 @@
 <?php
 
-error_reporting(-1);
-ini_set("display_errors", 1);
-echo "<pre>";
 require_once 'serpseeker.php';
 $ss = new SERPSeeker('bdb8cbaa83ccfc71eef1e19b83c12ede');
+
+echo "<pre>";
 
 /** Проекты */
 
